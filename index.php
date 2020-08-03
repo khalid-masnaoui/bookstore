@@ -98,7 +98,7 @@ if(Session::exists("messages") ){
                                                                                     <ul>                <li><a href='profile.php'>profile</a></li>
                                                                                     <li><a href='bookstore.php'>Your BookStore</a></li>
 
-                                                                                                        <li><a href='update.php'>update profile</a></li> 
+                                                                                                       
 
                                                                                                             <li><a href='logout.php'>Log Out</a></li>
 

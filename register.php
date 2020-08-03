@@ -204,8 +204,9 @@ font-family: 'Ubuntu', sans-serif;
     
 <div class="container m-auto text-center">
     <a href="index.php">
-        <h3 class="mt-5">Book</h3></a>
-    </div>
+    <div id="logo" class="text-dark mt-5">
+                            <h3 class="text-dark"> <i class="fas fa-swatchbook mr-1"></i>Book</h3>
+                        </div>    </div>
 
 
     <div class="main">

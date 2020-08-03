@@ -91,12 +91,12 @@ if(isset($_SESSION["disabled"])){
 
 
 
-                                                        <li class="menu-has-children"><a  class="text-light"> <?php echo escape($user->data()->username)?></a>!</p>
+                                                        <li class="menu-has-children"><a  class="text-light"> <?php echo escape($user->data()->username)?></a></p>
 
                                                                 <ul>                <li><a href='profile.php'>profile</a></li>
                                                                 <li><a href='bookstore.php'>Your BookStore</a></li>
 
-                                                                                    <li><a href='update.php'>update profile</a></li> 
+                                                                                   
 
                                                                                         <li><a href='logout.php'>Log Out</a></li>
 
@@ -106,6 +106,7 @@ if(isset($_SESSION["disabled"])){
 
 
                                                                 </ul>
+                                                        </ul>
                                                         <?php
                                                         }else{
                                                         ?>
